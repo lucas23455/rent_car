@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rento</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="content">
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Rento<span>.</span></a>
+
+            <!-- Navbar Links -->
+            <nav class="navbar">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#trending" class="nav-link">Trending</a>
+                <a href="#cars" class="nav-link">Cars</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+            </nav>
+
+            <!-- Nav Icons -->
+            <div class="nav-icons">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <a href="#"><i class='bx bx-user user-icon'></i></a>
+            </div>
+
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-content container">
+            <div class="home-img">
+                <img src="images/home.png" alt="">
+            </div>
+            <form action="" class="input-form">
+                <div class="input-box input-border">
+                    <span>Localização</span>
+                    <input type="search" name="" id="" placeholder="Pesquisa de Lugares">
+                </div>
+
+                <div class="input-box input-border">
+                    <span>Começo</span>
+                    <input type="date" name="start-date" id="start-date">
+                </div>
+
+                <div class="input-box">
+                    <span>Retorno</span>
+                    <input type="date" name="return" id="return-date">
+                </div>
+                <i class='bx bx-search search-btn'></i>
+            </form>
+        </div>
+    </section>
+
+    <!---Trending-->
+    <section class="trending container" id="trending">
+        <!--Heading-->
+        <div class="heading">
+            <h2>Trending Vehicles</h2>
+        </div>
+        <!---Treading content-->
+        <div class="trending-content">
+            <div class="trend-box">
+                <h4>Electric</h4>
+                <img src="images/trend-1.png" alt="">
+                <h3>Taycan S</h3>
+                <p>From $299/day</p>
+            </div>
+
+            <div class="trend-box">
+                <h4>Electric</h4>
+                <img src="images/trend-2.png" alt="">
+                <h3>Taycan</h3>
+                <p>From $299/day</p>
+            </div>
+
+            <div class="trend-box">
+                <h4>Electric</h4>
+                <img src="images/trend-3.png" alt="">
+                <h3>Taycan Turbo</h3>
+                <p>From $299/day</p>
+            </div>
+
+            <div class="trend-box">
+                <h4>Electric</h4>
+                <img src="images/trend-4.png" alt="">
+                <h3>Taycan Turismo</h3>
+                <p>From $299/day</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Rentala-->
+    <section class="rentals container" id="cars" >
+        <!--Heading-->
+        <div class="heading">
+            <h2>Our Top Rentals</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus fugiat provident, enim necessitatibus asperiores temporibus quidem. Assumenda quisquam corrupti veniam commodi enim. Deserunt asperiores doloremque perferendis adipisci iure commodi?</p>
+        </div>
+
+        <!--Rentals Content-->
+        <div class="rentals-content">
+            <!--Box 1-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-1.png" alt="">
+                <h2>Rolls-Royce</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+
+            <!--Box 2-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-2.png" alt="">
+                <h2>Macan 4</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+
+            <!--Box 3-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-3.png" alt="">
+                <h2>Cayyenne S E-Hibridy</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+
+            <!--Box 4-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-4.png" alt="">
+                <h2>Nisan GT</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+
+            <!--Box 5-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-5.png" alt="">
+                <h2>Paranema 56</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+
+            <!--Box 6-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-6.png" alt="">
+                <h2>Nissan Aria</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+
+            <!--Box 7-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-7.png" alt="">
+                <h2>Canyebbe Turbo</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+
+            <!--Box 8-->
+            <div class="rental-box">
+                <div class="rental-top">
+                    <h3>Sedan</h3>
+                    <i class="bx bxs-heart"></i>
+                </div>
+                <img src="images/rental-8.png" alt="">
+                <h2>718 boyer</h2>
+                <h4>Automatic</h4>
+                <div class="price-btn">
+                    <p>$299 <span>/day</span></p>
+                    <a href="#" class="rental-btn">Rent</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Team-->
+    <section class="team container" id="team">
+        <!--Heading-->
+        <div class="heading">
+            <h2>Meet Our Experts</h2>
+        </div>
+        <!---Team content-->
+        <div class="team-content">
+            <div class="team-box">
+                <img src="images/team-1.png" alt="">
+                <h2>Brad Zone</h2>
+                <span>Co-head</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente, rerum eaque, corrupti voluptate quae repellendus, amet incidunt quaerat laudantium vero ex nobis minus tempora aut. Necessitatibus voluptatem dolorum possimus?</p>
+            </div>
+
+            <div class="team-box">
+                <img src="images/team-2.png" alt="">
+                <h2>Bradd coller</h2>
+                <span>Desing</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente, rerum eaque, corrupti voluptate quae
+                    repellendus, amet incidunt quaerat laudantium vero ex nobis minus tempora aut. Necessitatibus voluptatem dolorum
+                    possimus?</p>
+            </div>
+
+            <div class="team-box">
+                <img src="images/team-3.png" alt="">
+                <h2>Laco rommer</h2>
+                <span>CEO</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente, rerum eaque, corrupti voluptate quae
+                    repellendus, amet incidunt quaerat laudantium vero ex nobis minus tempora aut. Necessitatibus voluptatem dolorum
+                    possimus?</p>
+            </div>
+        </div>
+    </section>
+    <!--Reviews-->
+    <section class="reviews" id="reviews">
+        <!--heading-->
+        <div class="heading">
+            <h2>Our Customer´s</h2>
+        </div>
+        <div class="reviews-content container">
+            <div class="t-box">
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere praesentium illum adipisci eius repellendus pariatur aspernatur, accusamus velit enim? Molestias rerum cupiditate voluptas iusto, voluptatem tenetur fugiat eos nobis facilis?</p>
+                <div class="profile">
+                    <img src="images/profile-1.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo Bator</h3>
+                        <span>New york</span>
+                    </div>
+                </div>  
+            </div>
+
+
+           
+
+
+            <div class="t-box">
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere praesentium illum adipisci eius repellendus
+                    pariatur aspernatur, accusamus velit enim? Molestias rerum cupiditate voluptas iusto, voluptatem tenetur fugiat
+                    eos nobis facilis?</p>
+                <div class="profile">
+                    <img src="images/profile-2.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo Bator</h3>
+                        <span>New york</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="t-box">
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere praesentium illum adipisci eius repellendus
+                    pariatur aspernatur, accusamus velit enim? Molestias rerum cupiditate voluptas iusto, voluptatem tenetur fugiat
+                    eos nobis facilis?</p>
+                <div class="profile">
+                    <img src="images/profile-3.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo Bator</h3>
+                        <span>New york</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="t-box">
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere praesentium illum adipisci eius repellendus
+                    pariatur aspernatur, accusamus velit enim? Molestias rerum cupiditate voluptas iusto, voluptatem tenetur fugiat
+                    eos nobis facilis?</p>
+                <div class="profile">
+                    <img src="images/profile-4.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo Bator</h3>
+                        <span>New york</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--newsletter-->
+    <section class="newsletter container" id="newsletter">
+        <h2>Subcribe and Get 20% Discount</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum a explicabo fugiat ipsam repellendus fugit itaque, repellat at magni dolorum earum eaque quia sed blanditiis et possimus quaerat? Iure, modi!</p>
+        
+        <form action="">
+            <input type="email" name="" class="email" placeholder="email">
+            <input type="submit" value="Subscribe" class="s-btn">
+        </form>
+    </section>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-content container">
+            <div class="footer-box">
+                <a href="#" class="logo">Rento <span>.</span></a>
+                <p>234 Bald Hill St, Asheville, NC 2343434</p>
+                <div class="social">
+                    <a href=""><i class="bx bxl-instagram"></i></a>
+                    <a href=""><i class="bx bxl-linkedin"></i></a>
+                    <a href=""><i class="bx bxl-tiktok"></i></a>
+                    <a href=""><i class="bx bxl-pinterest"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <h3>Opening hours</h3>
+                <p><span>Mon</span>:9.00-20:30</p>
+                <p><span>Tue</span>:9.00-20:30</p>
+                <p><span>Wed</span>:9.00-20:30</p>
+                <p><span>Thu</span>:9.00-20:30</p>
+                <p><span>Fri</span>:9.00-20:30</p>
+                <p><span>Sar</span>:9.00-20:30</p>
+                <p><span>Sun</span>:9.00-20:30</p>
+            </div>
+            <div class="footer-box">
+                <h3>information</h3>
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Cars</a>
+                <a href="#">Trending</a>
+                <a href="#">Reviews</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact Us</h3>
+                <p>(11)2323-4343</p>
+                <p>suport@domain.com <br> suport@domain.com</p>
+                <p>
+                    Address: 122 Supoert matti Visando Builgin VST District, North American
+                </p>
+            </div>
+        </div>
+        <p class="copyright">&#169; 2025 Rento</p>
+    </div>
+ </div>
+    <!--ScrollReveal Animation-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Link JS-->
+    <script src="main.js"></script>
+</body>
+
+</html>
